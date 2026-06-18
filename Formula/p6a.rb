@@ -4,6 +4,8 @@ class P6a < Formula
   license "MIT"
   version "1.10.5"
 
+  uses_from_macos "curl"
+
   on_macos do
     url "https://github.com/partoska/p6a-cmd/releases/download/v#{version}/p6a_#{version}_darwin_universal"
     sha256 "3238e171b873a4d88f446bb7182a885a6dcf413ad8a6bd139030a3e725c8fbf9"
