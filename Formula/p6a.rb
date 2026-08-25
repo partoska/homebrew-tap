@@ -2,21 +2,21 @@ class P6a < Formula
   desc "Command-line tool to manage and sync your event photos from Partoska"
   homepage "https://www.partoska.com/p6a"
   license "MIT"
-  version "1.11.6"
+  version "1.11.7"
 
   on_macos do
     url "https://github.com/partoska/p6a-cmd/releases/download/v#{version}/p6a_#{version}_darwin_universal"
-    sha256 "641d14c0a7a67e34b5ee1ddfbfa6fb3517ac06f12b6afbf3366699d17df94dbd"
+    sha256 "e0bde56f6f7f727beb179ee501a911cf346d09cd1addfdf591eee31aaecbb2f4"
   end
 
   on_linux do
     on_intel do
       url "https://github.com/partoska/p6a-cmd/releases/download/v#{version}/p6a_#{version}_linux_amd64"
-      sha256 "079dc876da18abfca1ad473bf4605f0dbadc7ad25c6d7bfe7809d75137dc7636"
+      sha256 "179a809050733000a1c1eff7a6dbc2989a5cc4d9ca8b32ede54cb0672156d102"
     end
     on_arm do
       url "https://github.com/partoska/p6a-cmd/releases/download/v#{version}/p6a_#{version}_linux_arm64"
-      sha256 "dc95bd9d8517bf3258e691fb51917d0d972bf40a082f271f6cd0e7109ba0a984"
+      sha256 "b5e27c4c785520e1662087511b071c77ab961666c5c026e8c140fe7b4499d6f1"
     end
   end
 
