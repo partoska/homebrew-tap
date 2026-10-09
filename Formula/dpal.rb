@@ -2,21 +2,21 @@ class Dpal < Formula
   desc "Compact user-space tool for process management"
   homepage "https://lab.partoska.com/dpal"
   license "MIT"
-  version "1.3.1"
+  version "1.3.2"
 
   on_macos do
     url "https://github.com/partoska/dpal/releases/download/v#{version}/dpal_#{version}_darwin_universal"
-    sha256 "b129a570adc5ec6499b20b35a0a8c9daeb2fdab793306ca39601cace3737b2c8"
+    sha256 "05f333ae2187ef5a944c47097b8a5a2236e1c055046fa1a8f88ed720b13defe9"
   end
 
   on_linux do
     on_intel do
       url "https://github.com/partoska/dpal/releases/download/v#{version}/dpal_#{version}_linux_amd64"
-      sha256 "43d31caaf0c06968e93806263b757d45179961846a1e08ec169866ebdff53f61"
+      sha256 "44e9cca733215851a54d728d6da04b95a46ce3f2d81d709bd51776f015079730"
     end
     on_arm do
       url "https://github.com/partoska/dpal/releases/download/v#{version}/dpal_#{version}_linux_arm64"
-      sha256 "fd3103c9837d2b4d5b786ae7493d8ec8b80a34328798dbe5976390c1f862d844"
+      sha256 "e5f4f1a7fe06d8118fa84db6742d0738adf4e5acdb7a21670483130ecbad164a"
     end
   end
 
