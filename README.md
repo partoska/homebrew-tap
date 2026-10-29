@@ -14,6 +14,7 @@ brew tap partoska/tap
 |---------|-------------|
 | `p6a` | Command-line tool to manage and sync your event photos from Partoska |
 | `dpal` | Compact user-space tool for process management (Daemon Pal) |
+| `bikini` | Query and edit INI files from the command line |
 
 ### p6a
 
@@ -27,12 +28,18 @@ brew install partoska/tap/p6a
 brew install partoska/tap/dpal
 ```
 
+### bikini
+
+```bash
+brew install partoska/tap/bikini
+```
+
 ## Updating
 
 Formulas in this tap are updated automatically by CI on each release. You can pull the latest version with:
 
 ```bash
-brew update && brew upgrade p6a dpal
+brew update && brew upgrade p6a dpal bikini
 ```
 
 ## Links
@@ -43,3 +50,5 @@ brew update && brew upgrade p6a dpal
 - [Issues](https://github.com/partoska/p6a-cmd/issues)
 - [dpal source](https://github.com/partoska/dpal)
 - [dpal issues](https://github.com/partoska/dpal/issues)
+- [bikini source](https://github.com/partoska/bikini)
+- [bikini issues](https://github.com/partoska/bikini/issues)
