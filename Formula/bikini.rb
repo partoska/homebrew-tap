@@ -1,5 +1,5 @@
 class Bikini < Formula
-  desc "Query and edit INI files from the command line, in the spirit of jq"
+  desc "Query and edit INI files from the command line"
   homepage "https://lab.partoska.com/bikini"
   license "MIT"
   version "1.0.0"
