@@ -2,21 +2,21 @@ class Bikini < Formula
   desc "Query and edit INI files from the command line"
   homepage "https://lab.partoska.com/bikini"
   license "MIT"
-  version "1.0.0"
+  version "2.0.0"
 
   on_macos do
     url "https://github.com/partoska/bikini/releases/download/v#{version}/bikini_#{version}_darwin_universal"
-    sha256 "db215c4c233536f5f0b6f96cf5a32a3f5c06e0c07c85ea1a5963912ad20395ac"
+    sha256 "b3b07b44dbb42eba0e84d251980a7cb45258c3ad65f9717674899514a2e5894f"
   end
 
   on_linux do
     on_intel do
       url "https://github.com/partoska/bikini/releases/download/v#{version}/bikini_#{version}_linux_amd64"
-      sha256 "50c8e503c234fb96cd966c3c77be61d168a8fccd921eda75ec20e810ede2af3e"
+      sha256 "7f6c07d88ed4ba9e3f6a99ec2892a574bc1e639376588a173d9df4ff24ad2d93"
     end
     on_arm do
       url "https://github.com/partoska/bikini/releases/download/v#{version}/bikini_#{version}_linux_arm64"
-      sha256 "6dd40c50a72f42f0f7f307db5630613a931fc62b2c1e90d832bed1421e278414"
+      sha256 "b3392dcfbf6857f04ddee11b24c3f3add996f7b2a3a004b0304853ce306a5946"
     end
   end
 
