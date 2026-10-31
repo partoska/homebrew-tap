@@ -6,17 +6,17 @@ class Cisivi < Formula
 
   on_macos do
     url "https://github.com/partoska/cisivi/releases/download/v#{version}/cisivi_#{version}_darwin_universal"
-    sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+    sha256 "de5afd7ced5870e35e81337ba52a77c535a6274f33174dbf7990b8ecb30a4f10"
   end
 
   on_linux do
     on_intel do
       url "https://github.com/partoska/cisivi/releases/download/v#{version}/cisivi_#{version}_linux_amd64"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "bcee657aa4de9d1b8da0eddfedf1741d22f9efdb42105d2d62df3948b4652d50"
     end
     on_arm do
       url "https://github.com/partoska/cisivi/releases/download/v#{version}/cisivi_#{version}_linux_arm64"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "e05bd1e254f3f70671d3dc3c2c595cde8642ee76e9ad7ffc6196e7f365e2984d"
     end
   end
 
